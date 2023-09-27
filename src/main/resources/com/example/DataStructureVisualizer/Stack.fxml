@@ -5,7 +5,7 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.Pane?>
 
-<HBox xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.DataStructureVisualizer.Controller">
+<HBox xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.DataStructureVisualizer.StackController">
     <Button fx:id="pushButton" text="Push" />
     <Button fx:id="popButton" text="Pop" />
     <Pane fx:id="stackPane" />
