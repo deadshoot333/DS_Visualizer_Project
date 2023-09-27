@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+
+<HBox xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.DataStructureVisualizer.Controller">
+    <Button fx:id="pushButton" text="Push" />
+    <Button fx:id="popButton" text="Pop" />
+    <Pane fx:id="stackPane" />
+   <TextField fx:id="textField" />
+</HBox>
