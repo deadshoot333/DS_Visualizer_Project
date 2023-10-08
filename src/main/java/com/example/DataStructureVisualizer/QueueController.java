@@ -23,15 +23,22 @@ public class QueueController {
 
     @FXML
     private Button dequeueButton;
-
     @FXML
     private Pane stackPane;
     @FXML
     private TextField textField;
-    private final Queue<StackPane> queue = new LinkedList<>();
-    private Stage stage;
-    private Scene scene;
-
+    public StackPane [] q;
+    private int front;
+    private int rear;
+    private int size;
+    private final int MAX_SIZE=15;
+    public QueueController()
+    {
+        q=new StackPane[MAX_SIZE];
+        size=0;
+        front=0;
+        rear=0;
+    }
     public void initialize() {
         enqueueButton.setOnAction(event -> enqueueSquare());
         dequeueButton.setOnAction(event -> dequeueSquare());
@@ -40,47 +47,35 @@ public class QueueController {
     public void enqueueSquare() {
         Rectangle rectangle = new Rectangle(30, 30);
         rectangle.setFill(Color.WHITE);
-        //rectangle.setX(stackPane.getWidth());
-        //rectangle.setY(stackPane.getHeight());
         int data = Integer.parseInt(textField.getText());
         String my_string = Integer.toString(data);
         Text text = new Text(my_string);
         StackPane stackpane = new StackPane();
         stackpane.getChildren().addAll(rectangle, text);
-        queue.add(stackpane);
-        //stackPane.getChildren().add(rectangle);
-
+        q[rear]=stackpane;
+        rear++;
+        size++;
         visualizeQueue();
     }
 
     public void dequeueSquare() {
-        if (queue.isEmpty()) {
-            System.out.println("StackUnderFlow");
-            return;
-        }
-
-        StackPane stakePane = queue.poll();
-        stackPane.getChildren().remove(stakePane);
-
+        StackPane dqStackPane=q[front];
+        front++;
+        size--;
+        stackPane.getChildren().remove(dqStackPane);
         visualizeQueue();
-    }
-    public void printQueueInGUI() {
-        stackPane.getChildren().clear();
-        while(!queue.isEmpty())
-        {
 
-        }
     }
-    private void visualizeQueue() {
-        stackPane.getChildren().clear();
-        int i=1;
-        while(!queue.isEmpty())
-        {
-            StackPane stk=queue.element();
-            stk.setLayoutY(10);
-            stk.setLayoutX(stackPane.getHeight() / 2 - i * 22);
-            stackPane.getChildren().add(stk);
-            i++;
+    public void visualizeQueue() {
+            stackPane.getChildren().clear();
+            int positionCounter=0;
+            for(int i=front;i<rear;i++)
+            {
+                StackPane viewStackPane=q[i];
+                viewStackPane.setLayoutX(2+positionCounter*22);
+                positionCounter++;
+                stackPane.getChildren().add(viewStackPane);
+            }
         }
-    }
+
 }

@@ -19,14 +19,14 @@ public class Main extends Application {
     }
 
     public static void main(String[] args) {
-        BinaryTree b=new BinaryTree();
+       /* BinaryTree b=new BinaryTree();
         b.insert(18);
         b.insert(1);
         b.insert(19);
         b.insert(10);
         b.insert(5);
         b.insert(15);
-        b.print();
-        //launch();
+        b.print();*/
+        launch();
     }
 }
