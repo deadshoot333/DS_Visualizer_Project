@@ -8,6 +8,7 @@ import javafx.stage.Stage;
 import java.io.IOException;
 
 public class Main extends Application {
+
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("mainScene.fxml"));
@@ -18,6 +19,14 @@ public class Main extends Application {
     }
 
     public static void main(String[] args) {
-        launch();
+        BinaryTree b=new BinaryTree();
+        b.insert(18);
+        b.insert(1);
+        b.insert(19);
+        b.insert(10);
+        b.insert(5);
+        b.insert(15);
+        b.print();
+        //launch();
     }
 }

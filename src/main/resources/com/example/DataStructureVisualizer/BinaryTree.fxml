@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+
+<HBox xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/20.0.1" fx:controller="com.example.DataStructureVisualizer.BinaryTreeController">
+    <TextField fx:id="valueTextField" promptText="Enter value" />
+    <Button fx:id="insertButton" onAction="#initialize" text="Insert" />
+    <Canvas fx:id="canvas" />
+</HBox>
