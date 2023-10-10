@@ -2,9 +2,8 @@
 
 <?import javafx.scene.control.Tab?>
 <?import javafx.scene.control.TabPane?>
-<?import javafx.scene.layout.AnchorPane?>
 
-<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.DataStructureVisualizer.SceneController">
    <tabs>
       <Tab fx:id="Stack" text="STACK">
          <content>
@@ -13,7 +12,7 @@
       </Tab>
       <Tab text="QUEUE">
          <content>
-            <fx:include source="Queue.fxml"/>
+            <fx:include source="Queue.fxml" />
          </content>
       </Tab>
    </tabs>
