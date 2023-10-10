@@ -16,7 +16,7 @@ public class BSTAnimation extends Application {
         launch(args);
     }
 
-    @Override
+    @Override///
     public void start(Stage primaryStage) throws Exception {
         BST<Integer> tree = new BST<Integer>(); // Create a tree
         BorderPane pane = new BorderPane();
