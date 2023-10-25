@@ -13,6 +13,7 @@ import javafx.scene.shape.Rectangle;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Stack;
 
@@ -20,7 +21,7 @@ public class StackController {
 
     @FXML
     private Button pushButton;
-
+    // push
     @FXML
     private Button popButton;
 
@@ -34,9 +35,43 @@ public class StackController {
 
     public void initialize() {
         pushButton.setOnAction(event -> pushSquare());
-        popButton.setOnAction(event -> popSquare());
+        popButton.setOnAction(event -> {
+//            try {
+//                popSquare();
+//            } catch (IOException e) {
+//                throw new RuntimeException(e);
+//            }
+            try {
+                popSquare();
+            } catch (StackUnderFlowException e) {
+                // Create a text file to record the error.
+                FileWriter writer = null;
+                try {
+                    writer = new FileWriter("stack_underflow.txt");
+                } catch (IOException ex) {
+                    throw new RuntimeException(ex);
+                }
+                try {
+                    writer.write(e.getMessage());
+                } catch (IOException ex) {
+                    throw new RuntimeException(ex);
+                }
+                try {
+                    writer.close();
+                } catch (IOException ex) {
+                    throw new RuntimeException(ex);
+                }
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        });
     }
+    public class StackUnderFlowException extends Exception {
 
+        public StackUnderFlowException(String message) {
+            super(message);
+        }
+    }
     private void pushSquare() {
         Rectangle rectangle = new Rectangle(30, 30);
         rectangle.setFill(Color.WHITE);
@@ -53,10 +88,20 @@ public class StackController {
         visualizeStack();
     }
 
-    private void popSquare() {
+    //    private void popSquare() throws IOException {
+////        if (stack.isEmpty()) {
+////            System.out.println("StackUnderFlow");
+////            return;
+////        }
+//
+//        StackPane stakePane = stack.pop();
+//        stackPane.getChildren().remove(stakePane);
+//
+//        visualizeStack();
+//    }
+    private void popSquare() throws StackUnderFlowException, IOException {
         if (stack.isEmpty()) {
-            System.out.println("StackUnderFlow");
-            return;
+            throw new StackUnderFlowException("Stack is empty");
         }
 
         StackPane stakePane = stack.pop();
@@ -64,7 +109,6 @@ public class StackController {
 
         visualizeStack();
     }
-
     private void visualizeStack() {
         stackPane.getChildren().clear();
 

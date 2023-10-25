@@ -17,7 +17,7 @@ public class Main extends Application {
         stage.setScene(scene);
         stage.show();
     }
-
+//hi
     public static void main(String[] args) {
        /* BinaryTree b=new BinaryTree();
         b.insert(18);

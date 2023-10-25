@@ -5,10 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="154fe2e0-bae4-4f7b-b857-18224f22f3ba" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DS_Visualizer_Project" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DS_Visualizer_Project" beforeDir="false" afterPath="$PROJECT_DIR$/DS_Visualizer_Project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DS_Visualizer_Project/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/DS_Visualizer_Project/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DS_Visualizer_Project/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DS_Visualizer_Project/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DS_Visualizer_Project/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DS_Visualizer_Project/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DS_Visualizer_Project/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DS_Visualizer_Project/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DS_Visualizer_Project/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DS_Visualizer_Project/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DS_Visualizer_Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DS_Visualizer_Project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DS_Visualizer_Project/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/DS_Visualizer_Project/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DS_Visualizer_Project/com/example/DataStructureVisualizer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/DS_Visualizer_Project/com/example/DataStructureVisualizer/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DS_Visualizer_Project/com/example/DataStructureVisualizer/myClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/DS_Visualizer_Project/com/example/DataStructureVisualizer/myClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DS_Visualizer_Project/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/DS_Visualizer_Project/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DS_Visualizer_Project/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/DS_Visualizer_Project/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DS_Visualizer_Project/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/DS_Visualizer_Project/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DS_Visualizer_Project/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DS_Visualizer_Project/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DS_Visualizer_Project/src/main/java/com/example/DataStructureVisualizer/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/DS_Visualizer_Project/src/main/java/com/example/DataStructureVisualizer/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DS_Visualizer_Project/src/main/java/com/example/DataStructureVisualizer/BinaryTreeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/DS_Visualizer_Project/src/main/java/com/example/DataStructureVisualizer/BinaryTreeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DS_Visualizer_Project/src/main/java/com/example/DataStructureVisualizer/QueueController.java" beforeDir="false" afterPath="$PROJECT_DIR$/DS_Visualizer_Project/src/main/java/com/example/DataStructureVisualizer/QueueController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DS_Visualizer_Project/src/main/java/com/example/DataStructureVisualizer/SceneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/DS_Visualizer_Project/src/main/java/com/example/DataStructureVisualizer/SceneController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DS_Visualizer_Project/src/main/java/com/example/DataStructureVisualizer/StackController.java" beforeDir="false" afterPath="$PROJECT_DIR$/DS_Visualizer_Project/src/main/java/com/example/DataStructureVisualizer/StackController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DS_Visualizer_Project/src/main/java/com/example/DataStructureVisualizer/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/DS_Visualizer_Project/src/main/java/com/example/DataStructureVisualizer/TestClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DS_Visualizer_Project/src/main/resources/com/example/DataStructureVisualizer/BinaryTree.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/DS_Visualizer_Project/src/main/resources/com/example/DataStructureVisualizer/BinaryTree.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DS_Visualizer_Project/src/main/resources/com/example/DataStructureVisualizer/Queue.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/DS_Visualizer_Project/src/main/resources/com/example/DataStructureVisualizer/Queue.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DS_Visualizer_Project/src/main/resources/com/example/DataStructureVisualizer/Stack.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/DS_Visualizer_Project/src/main/resources/com/example/DataStructureVisualizer/Stack.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DS_Visualizer_Project/src/main/resources/com/example/DataStructureVisualizer/mainScene.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/DS_Visualizer_Project/src/main/resources/com/example/DataStructureVisualizer/mainScene.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/DataStructureVisualizer/AbstractTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/DataStructureVisualizer/AbstractTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/DataStructureVisualizer/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/DataStructureVisualizer/BST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/DataStructureVisualizer/BSTAnimation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/DataStructureVisualizer/BSTAnimation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/DataStructureVisualizer/BTView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/DataStructureVisualizer/BTView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/DataStructureVisualizer/BinaryTreeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/DataStructureVisualizer/BinaryTreeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/DataStructureVisualizer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/DataStructureVisualizer/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/DataStructureVisualizer/StackController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/DataStructureVisualizer/StackController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/DataStructureVisualizer/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/DataStructureVisualizer/Tree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,24 +60,26 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2Vz20Fwy7zgQ8w6Pf7wCjEjfRTQ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "F__drive",
-    "last_opened_file_path": "G:/JavaWrkIntellij/Interactive-Class-Management-system",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;F__drive&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/JavaWrkIntellij/Interactive-Class-Management-system&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Java/jdk-21" />
